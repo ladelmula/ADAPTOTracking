@@ -1,0 +1,333 @@
+<?xml version="1.0" standalone="yes"?>
+<Arbol xmlns="http://tempuri.org/Arbol.xsd">
+  <NodosArbol>
+    <Id>0</Id>
+    <Description>Sistema</Description>
+    <Operation>Suma</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>-1</IdParent>
+    <Calculo>0</Calculo>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>1</Id>
+    <Description>Decanting</Description>
+    <Operation>Multiplica</Operation>
+    <Ponderation>0.2</Ponderation>
+    <IdParent>0</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>2</Id>
+    <Description>Picking GTP</Description>
+    <Operation>Suma</Operation>
+    <Ponderation>0.7</Ponderation>
+    <IdParent>0</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>3</Id>
+    <Description>Paletizado</Description>
+    <Operation>Multiplica</Operation>
+    <Ponderation>0.1</Ponderation>
+    <IdParent>0</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>5</Id>
+    <Description>Línea hasta las rampas</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>3</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>6</Id>
+    <Description>Rampas</Description>
+    <Operation>Suma</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>3</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>7</Id>
+    <Description>Rampa 1</Description>
+    <Operation>-</Operation>
+    <Ponderation>0.2</Ponderation>
+    <IdParent>6</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>8</Id>
+    <Description>Rampa 2</Description>
+    <Operation>-</Operation>
+    <Ponderation>0.2</Ponderation>
+    <IdParent>6</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>10</Id>
+    <Description>Rampa 3</Description>
+    <Operation>-</Operation>
+    <Ponderation>0.2</Ponderation>
+    <IdParent>6</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>11</Id>
+    <Description>Rampa 4</Description>
+    <Operation>-</Operation>
+    <Ponderation>0.2</Ponderation>
+    <IdParent>6</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>12</Id>
+    <Description>Rampa Incidencias</Description>
+    <Operation>-</Operation>
+    <Ponderation>0.2</Ponderation>
+    <IdParent>6</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>13</Id>
+    <Description>GTP 1</Description>
+    <Operation>Multiplica</Operation>
+    <Ponderation>0.2</Ponderation>
+    <IdParent>2</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>14</Id>
+    <Description>GTP 2</Description>
+    <Operation>Suma</Operation>
+    <Ponderation>0.2</Ponderation>
+    <IdParent>2</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>15</Id>
+    <Description>GTP 3</Description>
+    <Operation>Suma</Operation>
+    <Ponderation>0.2</Ponderation>
+    <IdParent>2</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>16</Id>
+    <Description>GTP 4</Description>
+    <Operation>Suma</Operation>
+    <Ponderation>0.2</Ponderation>
+    <IdParent>2</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>17</Id>
+    <Description>Loop</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>1</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>18</Id>
+    <Description>ADAPTO-Decanting</Description>
+    <Operation>Multiplica</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>1</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>19</Id>
+    <Description>Entrada Decanting</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>1</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>20</Id>
+    <Description>Salida Decanting</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>1</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>21</Id>
+    <Description>Elevadores</Description>
+    <Operation>Suma</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>18</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>23</Id>
+    <Description>Shuttles</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>18</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>24</Id>
+    <Description>Elevador 2</Description>
+    <Operation>-</Operation>
+    <Ponderation>0.5</Ponderation>
+    <IdParent>21</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>25</Id>
+    <Description>Elevador 3</Description>
+    <Operation>-</Operation>
+    <Ponderation>0.5</Ponderation>
+    <IdParent>21</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>26</Id>
+    <Description>Entrada GTP 1</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>13</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>28</Id>
+    <Description>Salida GTP 1</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>13</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>30</Id>
+    <Description>ADAPTO GTP 1</Description>
+    <Operation>Multiplica</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>13</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>31</Id>
+    <Description>Shuttles</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>30</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>32</Id>
+    <Description>Elevador 1</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>30</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>33</Id>
+    <Description>Entrada GTP 2</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>14</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>34</Id>
+    <Description>Salida GTP 2</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>14</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>35</Id>
+    <Description>ADAPTO GTP 2</Description>
+    <Operation>Multiplica</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>14</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>36</Id>
+    <Description>Shuttles</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>35</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>37</Id>
+    <Description>Elevador 2</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>35</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>38</Id>
+    <Description>Entrada GTP 3</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>15</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>40</Id>
+    <Description>Entrada GTP 4</Description>
+    <Operation>Suma</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>16</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>41</Id>
+    <Description>Salida GTP 3</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>15</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>42</Id>
+    <Description>Salida GTP 4</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>16</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>43</Id>
+    <Description>ADAPTO GTP 3</Description>
+    <Operation>Multiplica</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>15</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>44</Id>
+    <Description>ADAPTO GTP 4</Description>
+    <Operation>Multiplica</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>16</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>45</Id>
+    <Description>Entrada desde ADAPTO</Description>
+    <Operation>-</Operation>
+    <Ponderation>0.8</Ponderation>
+    <IdParent>40</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>46</Id>
+    <Description>Entrada clearing</Description>
+    <Operation>-</Operation>
+    <Ponderation>0.2</Ponderation>
+    <IdParent>40</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>47</Id>
+    <Description>Shuttles</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>43</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>48</Id>
+    <Description>Shuttles</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>44</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>49</Id>
+    <Description>Elevador 3</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>43</IdParent>
+  </NodosArbol>
+  <NodosArbol>
+    <Id>50</Id>
+    <Description>Elevador 4</Description>
+    <Operation>-</Operation>
+    <Ponderation>1</Ponderation>
+    <IdParent>44</IdParent>
+  </NodosArbol>
+  <InfoLinea>
+    <Id>1</Id>
+    <Operation>Intersección</Operation>
+  </InfoLinea>
+  <InfoLinea>
+    <Id>36</Id>
+    <Operation>Intersección</Operation>
+  </InfoLinea>
+  <OperacionesLinea>
+    <Description>Intersección</Description>
+  </OperacionesLinea>
+  <OperacionesLinea>
+    <Description>Cálculo de shuttles</Description>
+  </OperacionesLinea>
+</Arbol>

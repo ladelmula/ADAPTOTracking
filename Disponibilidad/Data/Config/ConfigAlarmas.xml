@@ -1,0 +1,253 @@
+<?xml version="1.0" standalone="yes"?>
+<ConfigAlarmas xmlns="http://tempuri.org/ConfigAlarmas.xsd">
+  <ConfigAlarmas>
+    <TextoAlarma>Saturación</TextoAlarma>
+    <Tecnica>false</Tecnica>
+    <Operativa>true</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Semisaturación</TextoAlarma>
+    <Tecnica>false</Tecnica>
+    <Operativa>true</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Gálibo de altura</TextoAlarma>
+    <Tecnica>false</Tecnica>
+    <Operativa>true</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Máquina no operativa</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Demasiado tiempo tapada</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Fallo de seguridades</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Fallo tarjeta segura</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Fallo de esclavo DP</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Gálibo de longitud</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Línea de acumulación semivacía</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>En fallo</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>En mantenimiento</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Modo manual</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Atasco</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Gálibo inclinación frontal/trasera</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Gálibo lateral derecho</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Res</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Cerramiento NOK</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Fallo de presión</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Baja presión de aire</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Presencia en lazo inductivo  ME-10.30.10 (CME4-CC146A1TR)</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Evacuación forzada</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Presencia en lazo inductivo ME-10.30.6 (CME2-CC146A3TR)</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Presencia en lazo inductivo  ME-10.30.4 (CME2-CC146A1TR)</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>MBC1P1 EStop From Vi</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Puerta de seguridad abierta</TextoAlarma>
+    <Tecnica>false</Tecnica>
+    <Operativa>true</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>MBC2P2 EStop From Vi</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>MBC3P3 EStop From Vi</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Conveyor not empty</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Downstream gap not clear</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Movidrive failue lift</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>MBC4P4 EStop From Vi</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>MBC5P5 EStop From Vi</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Presencia en lazo inductivo ME-10.30.12 (CME4-CC146A3TR)</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Bajo nivel de consumible</TextoAlarma>
+    <Tecnica>false</Tecnica>
+    <Operativa>true</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Presencia en lazo inductivo ME-10.30.3 (CME1-CC146A3TR)</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Palas columna 1 no se extraen</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Presencia en lazo inductivo ME-10.30.9 (CME3-CC146A3TR)</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Presencia en lazo inductivo  ME-10.30.1 (CME1-CC146A1TR)</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Presencia en lazo inductivo ME-10.30.2 (CME1-CC146A2TR)</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Pallet sin desplegar</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Presencia en lazo inductivo ME-10.30.5 (CME2-CC146A2TR)</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Presencia en lazo inductivo ME-10.30.11 (CME4-CC146A2TR)</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Movidrive not referenced lift</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>At least one area is in Manual mode</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Movidrive not referenced</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Movidrive failure lift</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Tope no sube</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Presencia en lazo inductivo  ME-10.30.7 (CME3-CC146A1TR)</TextoAlarma>
+    <Tecnica>true</Tecnica>
+    <Operativa>false</Operativa>
+  </ConfigAlarmas>
+  <ConfigAlarmas>
+    <TextoAlarma>Parada de emergencia</TextoAlarma>
+    <Tecnica>false</Tecnica>
+    <Operativa>true</Operativa>
+  </ConfigAlarmas>
+</ConfigAlarmas>

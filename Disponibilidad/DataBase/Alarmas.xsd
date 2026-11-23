@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Alarmas" targetNamespace="http://tempuri.org/DatosAlarmas.xsd" xmlns:mstns="http://tempuri.org/DatosAlarmas.xsd" xmlns="http://tempuri.org/DatosAlarmas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Alarmas" msdata:IsDataSet="true" msdata:Locale="es-ES" msprop:Generator_DataSetName="Alarmas" msprop:Generator_UserDSName="Alarmas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="H_Alarmas_DW" msprop:Generator_TableClassName="H_Alarmas_DWDataTable" msprop:Generator_TableVarName="tableH_Alarmas_DW" msprop:Generator_RowChangedName="H_Alarmas_DWRowChanged" msprop:Generator_TablePropName="H_Alarmas_DW" msprop:Generator_RowDeletingName="H_Alarmas_DWRowDeleting" msprop:Generator_RowChangingName="H_Alarmas_DWRowChanging" msprop:Generator_RowEvHandlerName="H_Alarmas_DWRowChangeEventHandler" msprop:Generator_RowDeletedName="H_Alarmas_DWRowDeleted" msprop:Generator_RowClassName="H_Alarmas_DWRow" msprop:Generator_UserTableName="H_Alarmas_DW" msprop:Generator_RowEvArgName="H_Alarmas_DWRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="COMPONENTE" msprop:Generator_ColumnVarNameInTable="columnCOMPONENTE" msprop:Generator_ColumnPropNameInRow="COMPONENTE" msprop:Generator_ColumnPropNameInTable="COMPONENTEColumn" msprop:Generator_UserColumnName="COMPONENTE" type="xs:string" />
+              <xs:element name="AREA" msprop:Generator_ColumnVarNameInTable="columnAREA" msprop:Generator_ColumnPropNameInRow="AREA" msprop:Generator_ColumnPropNameInTable="AREAColumn" msprop:Generator_UserColumnName="AREA" type="xs:string" minOccurs="0" />
+              <xs:element name="FECHA_INI" msdata:DateTimeMode="Unspecified" msprop:Generator_ColumnVarNameInTable="columnFECHA_INI" msprop:Generator_ColumnPropNameInRow="FECHA_INI" msprop:Generator_ColumnPropNameInTable="FECHA_INIColumn" msprop:Generator_UserColumnName="FECHA_INI" type="xs:dateTime" />
+              <xs:element name="FECHA_FIN" msdata:DateTimeMode="Unspecified" msprop:Generator_ColumnVarNameInTable="columnFECHA_FIN" msprop:Generator_ColumnPropNameInRow="FECHA_FIN" msprop:Generator_ColumnPropNameInTable="FECHA_FINColumn" msprop:Generator_UserColumnName="FECHA_FIN" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TEXTO" msprop:Generator_ColumnVarNameInTable="columnTEXTO" msprop:Generator_ColumnPropNameInRow="TEXTO" msprop:Generator_ColumnPropNameInTable="TEXTOColumn" msprop:Generator_UserColumnName="TEXTO" type="xs:string" />
+              <xs:element name="DURACION" msprop:Generator_ColumnVarNameInTable="columnDURACION" msprop:Generator_ColumnPropNameInRow="DURACION" msprop:Generator_ColumnPropNameInTable="DURACIONColumn" msprop:Generator_UserColumnName="DURACION" type="xs:long" minOccurs="0" />
+              <xs:element name="DESCARTADO" msprop:Generator_ColumnVarNameInTable="columnDESCARTADO" msprop:Generator_ColumnPropNameInRow="DESCARTADO" msprop:Generator_ColumnPropNameInTable="DESCARTADOColumn" msprop:Generator_UserColumnName="DESCARTADO" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="MANTENIMIENTO" msprop:nullValue="false" msprop:Generator_ColumnPropNameInRow="MANTENIMIENTO" msprop:Generator_ColumnVarNameInTable="columnMANTENIMIENTO" msprop:Generator_ColumnPropNameInTable="MANTENIMIENTOColumn" msprop:Generator_UserColumnName="MANTENIMIENTO" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="FUERAPRODUCCION" msprop:nullValue="false" msprop:Generator_ColumnPropNameInRow="FUERAPRODUCCION" msprop:Generator_ColumnVarNameInTable="columnFUERAPRODUCCION" msprop:Generator_ColumnPropNameInTable="FUERAPRODUCCIONColumn" msprop:Generator_UserColumnName="FUERAPRODUCCION" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="DA_ALARM" msprop:Generator_ColumnVarNameInTable="columnDA_ALARM" msprop:Generator_ColumnPropNameInRow="DA_ALARM" msprop:Generator_ColumnPropNameInTable="DA_ALARMColumn" msprop:Generator_UserColumnName="DA_ALARM" type="xs:short" minOccurs="0" />
+              <xs:element name="OBSERVACIONES" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="OBSERVACIONES" msprop:Generator_ColumnVarNameInTable="columnOBSERVACIONES" msprop:Generator_ColumnPropNameInTable="OBSERVACIONESColumn" msprop:Generator_UserColumnName="OBSERVACIONES" type="xs:string" minOccurs="0" />
+              <xs:element name="SUBSISTEMA" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="SUBSISTEMA" msprop:Generator_ColumnVarNameInTable="columnSUBSISTEMA" msprop:Generator_ColumnPropNameInTable="SUBSISTEMAColumn" msprop:Generator_UserColumnName="SUBSISTEMA" type="xs:string" default=" " minOccurs="0" />
+              <xs:element name="FUERAPRODUCCIONMANUAL" msprop:nullValue="false" msprop:Generator_ColumnPropNameInRow="FUERAPRODUCCIONMANUAL" msprop:Generator_ColumnVarNameInTable="columnFUERAPRODUCCIONMANUAL" msprop:Generator_ColumnPropNameInTable="FUERAPRODUCCIONMANUALColumn" msprop:Generator_UserColumnName="FUERAPRODUCCIONMANUAL" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="FECHA_DISP" msdata:DateTimeMode="Unspecified" msprop:Generator_ColumnVarNameInTable="columnFECHA_DISP" msprop:Generator_ColumnPropNameInRow="FECHA_DISP" msprop:Generator_ColumnPropNameInTable="FECHA_DISPColumn" msprop:Generator_UserColumnName="FECHA_DISP" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TiemposTrabajo" msprop:Generator_TableClassName="TiemposTrabajoDataTable" msprop:Generator_TableVarName="tableTiemposTrabajo" msprop:Generator_RowChangedName="TiemposTrabajoRowChanged" msprop:Generator_TablePropName="TiemposTrabajo" msprop:Generator_RowDeletingName="TiemposTrabajoRowDeleting" msprop:Generator_RowChangingName="TiemposTrabajoRowChanging" msprop:Generator_RowEvHandlerName="TiemposTrabajoRowChangeEventHandler" msprop:Generator_RowDeletedName="TiemposTrabajoRowDeleted" msprop:Generator_RowClassName="TiemposTrabajoRow" msprop:Generator_UserTableName="TiemposTrabajo" msprop:Generator_RowEvArgName="TiemposTrabajoRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DiaDesde" msdata:DateTimeMode="Unspecified" msprop:Generator_ColumnVarNameInTable="columnDiaDesde" msprop:Generator_ColumnPropNameInRow="DiaDesde" msprop:Generator_ColumnPropNameInTable="DiaDesdeColumn" msprop:Generator_UserColumnName="DiaDesde" type="xs:dateTime" />
+              <xs:element name="HoraDesde" msprop:Generator_ColumnVarNameInTable="columnHoraDesde" msprop:Generator_ColumnPropNameInRow="HoraDesde" msprop:Generator_ColumnPropNameInTable="HoraDesdeColumn" msprop:Generator_UserColumnName="HoraDesde" type="xs:duration" minOccurs="0" />
+              <xs:element name="HoraHasta" msprop:Generator_ColumnVarNameInTable="columnHoraHasta" msprop:Generator_ColumnPropNameInRow="HoraHasta" msprop:Generator_ColumnPropNameInTable="HoraHastaColumn" msprop:Generator_UserColumnName="HoraHasta" type="xs:duration" minOccurs="0" />
+              <xs:element name="DiaHasta" msprop:Generator_ColumnVarNameInTable="columnDiaHasta" msprop:Generator_ColumnPropNameInRow="DiaHasta" msprop:Generator_ColumnPropNameInTable="DiaHastaColumn" msprop:Generator_UserColumnName="DiaHasta" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DiaDisp" msdata:DateTimeMode="Unspecified" msprop:Generator_ColumnVarNameInTable="columnDiaDisp" msprop:Generator_ColumnPropNameInRow="DiaDisp" msprop:Generator_ColumnPropNameInTable="DiaDispColumn" msprop:Generator_UserColumnName="DiaDisp" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint4" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:H_Alarmas_DW" />
+      <xs:field xpath="mstns:COMPONENTE" />
+      <xs:field xpath="mstns:FECHA_INI" />
+      <xs:field xpath="mstns:TEXTO" />
+    </xs:unique>
+    <xs:unique name="TiemposTrabajoKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TiemposTrabajo" />
+      <xs:field xpath="mstns:DiaDesde" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

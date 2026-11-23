@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AdaptoTrackingTool.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ADAPTO1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">User Id=FMCDB_B1;Password=FMCDB_B1;Data Source=10.109.40.31:1521/INRLIMA1;</Value>
+    </Setting>
+    <Setting Name="ADAPTO2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">User Id=FMCDB_B2;Password=FMCDB_B2;Data Source=10.109.40.41:1521/INRLIMA2;</Value>
+    </Setting>
+    <Setting Name="TimeZoneId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SA Pacific Standard Time</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

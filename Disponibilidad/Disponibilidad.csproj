@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18FD0EB1-853F-4121-9A10-F92C377DBFAE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Disponibilidad</RootNamespace>
+    <AssemblyName>Disponibilidad</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Informes.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigurarAlarmas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigurarAlarmas.Designer.cs">
+      <DependentUpon>ConfigurarAlarmas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigurarComponentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigurarComponentes.Designer.cs">
+      <DependentUpon>ConfigurarComponentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\Alarmas1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Alarmas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\Arbol.cs">
+      <DependentUpon>Arbol.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\Arbol.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Arbol.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ConfigAlarmas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConfigAlarmas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\DataBaseUtils.cs" />
+    <Compile Include="DefineLinea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DefineLinea.Designer.cs">
+      <DependentUpon>DefineLinea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigurarArbol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigurarArbol.Designer.cs">
+      <DependentUpon>ConfigurarArbol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="VITreeViewEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VITreeViewEdit.Designer.cs">
+      <DependentUpon>VITreeViewEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VITreeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VITreeView.Designer.cs">
+      <DependentUpon>VITreeView.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ConfigurarAlarmas.resx">
+      <DependentUpon>ConfigurarAlarmas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurarComponentes.resx">
+      <DependentUpon>ConfigurarComponentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DefineLinea.resx">
+      <DependentUpon>DefineLinea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurarArbol.resx">
+      <DependentUpon>ConfigurarArbol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VITreeViewEdit.resx">
+      <DependentUpon>VITreeViewEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VITreeView.resx">
+      <DependentUpon>VITreeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataBase\Alarmas.xsc">
+      <DependentUpon>Alarmas.xsd</DependentUpon>
+    </None>
+    <None Include="DataBase\Alarmas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Alarmas1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataBase\Alarmas.xss">
+      <DependentUpon>Alarmas.xsd</DependentUpon>
+    </None>
+    <None Include="DataBase\Arbol.xsc">
+      <DependentUpon>Arbol.xsd</DependentUpon>
+    </None>
+    <None Include="DataBase\Arbol.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Arbol.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataBase\Arbol.xss">
+      <DependentUpon>Arbol.xsd</DependentUpon>
+    </None>
+    <None Include="DataBase\ConfigAlarmas.xsc">
+      <DependentUpon>ConfigAlarmas.xsd</DependentUpon>
+    </None>
+    <None Include="DataBase\ConfigAlarmas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ConfigAlarmas.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataBase\ConfigAlarmas.xss">
+      <DependentUpon>ConfigAlarmas.xsd</DependentUpon>
+    </None>
+    <None Include="Data\Config\ConfigDisponibilidad.xlsm" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\Config\DatosArbol.xml.bakup">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow Down - 02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AdvancedDataGridView\AdvancedDataGridView.csproj">
+      <Project>{6eba0a55-b390-4479-a564-58d46094998d}</Project>
+      <Name>AdvancedDataGridView</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logger\Logger.csproj">
+      <Project>{836faef0-c173-4215-a7a9-146e3c6cba34}</Project>
+      <Name>Logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VisualStyles\VisualStyles.csproj">
+      <Project>{dc127612-cb02-4394-8eff-830a38f3aec3}</Project>
+      <Name>VisualStyles</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder-Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder-Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder-Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aceptar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VanderlandeLogoBW.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\Config\Customer Logo IR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Analytics2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\File Upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\File Download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Data-Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Timer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bullets - 02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Timeline3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\Logs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\Config\Customer Logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Resources\Folder-Cube-01.png" />
+    <Content Include="Resources\Folder-Download-01.png" />
+    <Content Include="Resources\Folder-Special-01.png" />
+    <None Include="Data\Config\ConfigAlarmas.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Data\Config\DatosArbol.xml" />
+    <Content Include="Informes.ico" />
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
